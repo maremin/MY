@@ -1,0 +1,24 @@
+name: FTP Deploy
+
+on:
+  push:
+    branches: [main] # Замените на нужную ветку
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+        
+    - name: Deploy to FTP Server
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: my.marshib.ru
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: 21 # Порт FTP сервера
+        protocol: "ftp" # Используйте "sftp" для защищенного соединения
+        local-dir: ./
+        server-dir: /
