@@ -18,6 +18,6 @@ jobs:
         server: my.marshib.ru
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        protocol: "sftp" # Используйте "sftp" для защищенного соединения
+        protocol: "ftps" # Используйте "sftp" для защищенного соединения
         local-dir: ./
         server-dir: /
