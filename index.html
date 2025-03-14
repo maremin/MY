@@ -2,143 +2,235 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Дверной доктор</title>
-    <link rel="stylesheet" href="main.css" />
-    <link rel="icon" type="image/svg+xml" href="/sources/favicon.svg" />
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-      (function (m, e, t, r, i, k, a) {
-        m[i] =
-          m[i] ||
-          function () {
-            (m[i].a = m[i].a || []).push(arguments);
-          };
-        m[i].l = 1 * new Date();
-        for (var j = 0; j < document.scripts.length; j++) {
-          if (document.scripts[j].src === r) {
-            return;
-          }
-        }
-        (k = e.createElement(t)),
-          (a = e.getElementsByTagName(t)[0]),
-          (k.async = 1),
-          (k.src = r),
-          a.parentNode.insertBefore(k, a);
-      })(
-        window,
-        document,
-        "script",
-        "https://mc.yandex.ru/metrika/tag.js",
-        "ym"
-      );
-
-      ym(100129930, "init", {
-        clickmap: true,
-        trackLinks: true,
-        accurateTrackBounce: true,
-        webvisor: true,
-      });
-    </script>
-    <noscript
-      ><div>
-        <img
-          src="https://mc.yandex.ru/watch/100129930"
-          style="position: absolute; left: -9999px"
-          alt=""
-        /></div
-    ></noscript>
-    <!-- /Yandex.Metrika counter -->
+    <meta name="viewport" content="width=1300" />
+    <title>Веснушки</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="container">
-        <div class="logo">ДВЕРНОЙ ДОКТОР</div>
-        <div class="cta-nav-container">
+        <div class="header-container">
+          <img src="/sources/logo.png" alt="" />
           <nav>
-            <a href="#">Услуги</a>
-            <a href="#">Контакты</a>
-            <a href="#">Отзывы</a>
-            <a href="#">Частые вопросы</a>
-            <a href="#">Наши работы</a>
-            <a href="#">7 985 854 56 88</a>
+            <a class="nav-link" href="#">О нас</a>
+            <a class="nav-link" href="#">Награды</a>
+            <a class="nav-link" href="#">Галерея</a>
+            <a class="nav-link" href="#">Частые вопросы</a>
           </nav>
-          <button>СВЯЗАТЬСЯ</button>
+          <button>Записаться</button>
         </div>
       </div>
     </header>
     <main>
       <section class="first-screen">
         <div class="container">
-          <div class="info">
-            <h1>
-              Срочный ремонт и реставрация дверей и замков c выездом мастера
-            </h1>
-            <h3>
-              Наши сотрудники компании готовы выполнить ремонт металлической
-              двери независимо от состояния конструкции и элементов.
-            </h3>
+          <div class="info-wrapper">
+            <div class="info">
+              <h1>Ансамбль эстрадного пения “Веснушки”</h1>
+              <h3>Творческий путь от первых нот до больших побед</h3>
+              <button>Подробнее</button>
+            </div>
           </div>
-          <img src="/sources/first-screen-img.png" alt="Мужик чинит дверь" />
+        </div>
+        <img src="/sources/start_img.png" alt="" />
+      </section>
+      <section class="about">
+        <div class="container">
+          <h2>
+            “Веснушки” - это 11 лет творческого пути <br />и более 50
+            талантливых участников!
+          </h2>
+        </div>
+        <div class="about-container">
+          <div class="about-imgs">
+            <img style="--item-index: 1" src="/sources/about01.png" alt="" />
+            <img style="--item-index: 2" src="/sources/about02.png" alt="" />
+            <img style="--item-index: 3" src="/sources/about03.png" alt="" />
+            <img style="--item-index: 4" src="/sources/about04.png" alt="" />
+            <img style="--item-index: 5" src="/sources/about05.png" alt="" />
+            <img style="--item-index: 6" src="/sources/about06.png" alt="" />
+            <img style="--item-index: 7" src="/sources/about07.png" alt="" />
+            <img style="--item-index: 8" src="/sources/about08.png" alt="" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="info">
+            <p>
+              Мы создаем пространство, где каждый ребенок может раскрыть свой
+              творческий потенциал через эстрадное пение. Наша комплексная
+              программа включает не только вокальное мастерство, но и
+              хореографию и актерское искусство.
+            </p>
+            <ul>
+              <li>Традиционные сольные концерты</li>
+              <li>Выступления на городских праздниках</li>
+              <li>Участие в международных и всероссийских конкурсах</li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section class="services">
+      <section class="teacher">
         <div class="container">
-          <h2>Чем мы можем вам помочь</h2>
-          <div class="services-grid">
-            <div class="service">
-              <div class="icon">
-                <img src="/sources/padlock-check_14897280.svg" alt="Починенный замок" />
-              </div>
-              <p>Выполняем починку замков всех видов</p>
-            </div>
-            <div class="service">
-              <img src="/sources/door-open_9094530.svg" alt="открытая дверь" />
-
+          <div class="teacher-container">
+            <div class="info">
+              <h2>Наш руководитель</h2>
               <p>
-                Качественно и оперативно выполним ремонт металлических дверей
+                Ольга Альбертовна Зализняк закончила Российскую Академию
+                Театрального Искусства по специальности "Актер музыкального
+                театра". Коллектив был создан в 2014 году и, несмотря на свою
+                молодость студия "Веснушки" уже сегодня отличается высоким
+                исполнительским мастерством и является постоянным участником
+                городских мероприятий и праздников, победителем
+                фестивалей-конкурсов различного уровня.
               </p>
             </div>
-            <div class="service">
-              <img src="/sources/hammer-brush_16769839 1.svg" alt="Инструменты для ремонта" />
-
-              <p>Отреставрируем входные двери в квартире, доме, офисе</p>
-            </div>
-            <div class="service">
-              <img src="/sources/light-switch_9236803 1.svg" alt="Панель" />
-
-              <p>
-                Отремонтируем запорные системы, которые вышли из строя по разным
-                причинам
-              </p>
-            </div>
-            <div class="service">
-              <img src="/sources/ph_door.svg" alt="Металлическая дверь" />
-              <p>
-                Устраненим перекосы и проседания входной металлической двери
-              </p>
-            </div>
-            <div class="service">
-              <img src="/sources/shield-keyhole_11749083 1.svg" alt="Надежный замок" />
-              <p>Выполним расточку дверной коробки входной железной двери</p>
-            </div>
-            <div class="service">
-              <img src="/sources/key-hole_17588951.svg" alt="Замочная скважина" />
-
-              <p>Недорого заменим обивку, установим новые МДФ панели</p>
-            </div>
-            <div class="service">
-              <img src="/sources/solar_lock-outline.svg" alt="Замок" />
-
-              <p>
-                Выполним все виды регулировки замков входной железной двери,
-                замену личинки
-              </p>
+            <img src="/sources/olga.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="first-cta">
+        <div class="container">
+          <div class="first-cta-container">
+            <div class="info">
+              <h3>
+                Вокальный ансамбль «Веснушки» приглашает новых участников!!!
+              </h3>
+              <button>Записаться</button>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="moments">
+        <div class="container">
+          <div class="moments-imgs">
+            <img src="/sources/momonts13.png" alt="" />
+            <img src="/sources/momonts12.png" alt="" />
+            <img src="/sources/momonts11.png" alt="" />
+            <img src="/sources/momonts10.png" alt="" />
+            <img src="/sources/momonts09.png" alt="" />
+            <img src="/sources/momonts08.png" alt="" />
+            <img src="/sources/momonts07.png" alt="" />
+            <img src="/sources/momonts06.png" alt="" />
+            <img src="/sources/momonts05.png" alt="" />
+            <img src="/sources/momonts04.png" alt="" />
+            <img src="/sources/momonts03.png" alt="" />
+            <img src="/sources/momonts02.png" alt="" />
+            <img src="/sources/momonts01.png" alt="" />
+          </div>
+          <div class="info">
+            <p>Больше ярких моментов в нашей группе в Вконтакте</p>
+            <img src="/sources/vk_blue.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="recieves-section">
+        <div class="container">
+          <h2>Что говорят ученики</h2>
+          <div class="recieves">
+            <div class="recieve">
+              <div class="info">
+                <p>Новикова Светлана </p>
+                <p>Занятия по вокалу очень классные! Никогда не думала, что моей дочке сразу понравится заниматься в группе, ведь она очень долго привыкает к обстановке . Мне очень нравится, что вы разбираете вокал на примере песен, так намного проще понять маленькому ребенку как, где и что работает. Я очень довольна вашими уроками! Спасибо большое вам за ваш опыт, талант и любовь к детям!</p>
+              </div>
+              <div class="img-container">
+                <img src="/sources/image.png" alt="">
+              </div>
+              <h4>13.02.2025</h4>
+            </div>
+            <div class="recieve">
+              <div class="info">
+                <p>Оганнисян Сона</p>
+                <p>Моей старшей дочери 9 лет и она занимается в ансамбле эстрадного пения ,, Веснушки « уже три года ! В этом году стала заниматься и младшая ! Девочкам занятия вокалом , хореографией и актерским мастерством ! Очень любят Ольгу Альбертовну! Она относится к ним с теплотой и поддерживает во всех начинаниях</p>
+              </div>
+              <div class="img-container">
+                <img src="/sources/image-1.png" alt="">
+              </div>
+              <h4>13.02.2025</h4>
+            </div>
+            <div class="recieve">
+              <div class="info">
+                <p>Косарева Екатерина</p>
+                <p>Я очень люблю наш коллектив, наши занятия и бесконечно благодарна нашему преподавателю за ее труд!  После каждого занятия есть ощущение, что я совершенствуюсь и пою немного лучше! Я очень много нового для себя узнаю. Никогда не думала, что у моего голоса столько возможностей и я смогу исполнить столько разных песен! Советы и наставления стали для меня ценным источником вдохновения. Ольга Альбертовна всегда верит в нас, даже когда мы сомневаемся в себе, и это помогает нам раскрыться.</p>
+              </div>
+              <div class="img-container">
+                <img src="/sources/image-2.png" alt="">
+              </div>
+              <h4>13.02.2025</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="awards-section">
+        <div class="container">
+          <h2>Наши награды</h2>
+          <div class="awards">
+            <img src="/sources/awards01.png" alt="">
+            <img src="/sources/awards02.png" alt="">
+            <img src="/sources/awards03.png" alt="">
+            <img src="/sources/awards04.png" alt="">
+            <img src="/sources/awards05.png" alt="">
+            <img src="/sources/awards06.png" alt="">
+            <img src="/sources/awards07.png" alt="">
+            <img src="/sources/awards08.png" alt="">
+            <img src="/sources/awards09.png" alt="">
+            <img src="/sources/awards10.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="second-cta">
+        <div class="container">
+          <div class="second-cta-container">
+            <div class="info">
+              <h3>
+                Запишитесь уже сегодня на бесплатный пробный урок
+              </h3>
+              <button>Записаться</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faqs">
+        <div class="container">
+          <h2>Частые вопросы</h2>
+          <div class="faq-active">
+            <p>Мы принимаем учеников от 6 лет для детских групп и любого возраста для взрослых. Для детей занятия проходят в игровой форме, а для взрослых - в более профессиональном формате с учетом их уровня подготовки.</p>
+            <h3>С какого возраста принимаются ученики в студию эстрадного пения?</h3>
+          </div>
+          <div class="faq-first">
+            <h3 class="faq">Нужно ли иметь музыкальное образование для начала занятий?</h3>
+            <h3 class="faq">Какие направления эстрадного вокала преподаются в студии?</h3>
+          </div>
+          <div class="faq-second">
+            <h3 class="faq">Сколько занятий в неделю и какова их продолжительность?</h3>
+            <h3 class="faq">Как проходит первый урок и сколько стоит абонемент на месяц?</h3>
+          </div>
+          <div class="faq-second"></div>
         </div>
       </section>
     </main>
-    <script src="script.js"></script>
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="info">
+            <img src="/sources/logo.png" alt="" class="logo">
+            <nav>
+              <a class="nav-link" href="#">О нас</a>
+              <a class="nav-link" href="#">Награды</a>
+              <a class="nav-link" href="#">Галерея</a>
+              <a class="nav-link" href="#">Частые вопросы</a>
+            </nav>
+            <img src="sources/vk_dark.png" alt="" class="vk">
+            <h4>© Все права защищены 2025</h4>
+          </div>
+          <div class="adres-container">
+            <div class="adres">
+              <h4>Муниципальное автономное учреждение культуры городского округа Котельники Московской области «Культурный комплекс «Котельники»</h4>
+              <p>микрорайон Ковровый, 12, Котельники, Московская область</p>
+            </div>
+              <img src="/sources/map.png" alt="">
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
