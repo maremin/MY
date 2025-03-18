@@ -11,30 +11,34 @@
       <div class="container">
         <div class="header-container">
           <img src="/sources/logo.png" alt="" />
-          <nav>
-            <a class="nav-link" href="#">О нас</a>
-            <a class="nav-link" href="#">Награды</a>
-            <a class="nav-link" href="#">Галерея</a>
-            <a class="nav-link" href="#">Частые вопросы</a>
+          <nav class="header-nav">
+            <a class="nav-link" href="#about">О нас</a>
+            <a class="nav-link" href="#moments">Галерея</a>
+            <a class="nav-link" href="#awards">Награды</a>
+            <a class="nav-link" href="#faq">Частые вопросы</a>
           </nav>
-          <button>Записаться</button>
+          <a
+            class="my-button"
+            href="https://dk.mosreg.ru/dk/klubnadezhda/workshops/04a17b2d-f5ce-40ad-98b3-bb6237af9cd7"
+            >Записаться</a
+          >
         </div>
       </div>
     </header>
     <main>
-      <section class="first-screen">
+      <section class="first-screen" id="first-screen">
         <div class="container">
           <div class="info-wrapper">
-            <div class="info">
+            <div class="first-screen-info">
               <h1>Ансамбль эстрадного пения “Веснушки”</h1>
               <h3>Творческий путь от первых нот до больших побед</h3>
-              <button>Подробнее</button>
+              <a class="my-button" href="#about">Подробнее</a>
             </div>
           </div>
         </div>
         <img src="/sources/start_img.png" alt="" />
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="container">
           <h2>
             “Веснушки” - это 11 лет творческого пути <br />и более 50
@@ -54,8 +58,8 @@
           </div>
         </div>
         <div class="container">
-          <div class="info">
-            <p>
+          <div class="about-info">
+            <p class="my-p">
               Мы создаем пространство, где каждый ребенок может раскрыть свой
               творческий потенциал через эстрадное пение. Наша комплексная
               программа включает не только вокальное мастерство, но и
@@ -74,7 +78,7 @@
           <div class="teacher-container">
             <div class="info">
               <h2>Наш руководитель</h2>
-              <p>
+              <p class="my-p">
                 Ольга Альбертовна Зализняк закончила Российскую Академию
                 Театрального Искусства по специальности "Актер музыкального
                 театра". Коллектив был создан в 2014 году и, несмотря на свою
@@ -91,16 +95,20 @@
       <section class="first-cta">
         <div class="container">
           <div class="first-cta-container">
-            <div class="info">
+            <div class="first-cta-info">
               <h3>
                 Вокальный ансамбль «Веснушки» приглашает новых участников!!!
               </h3>
-              <button>Записаться</button>
+              <a
+                class="my-button"
+                href="https://dk.mosreg.ru/dk/klubnadezhda/workshops/04a17b2d-f5ce-40ad-98b3-bb6237af9cd7"
+                >Записаться</a
+              >
             </div>
           </div>
         </div>
       </section>
-      <section class="moments">
+      <section class="moments" id="moments">
         <div class="container">
           <div class="moments-imgs">
             <img src="/sources/momonts13.png" alt="" />
@@ -117,9 +125,11 @@
             <img src="/sources/momonts02.png" alt="" />
             <img src="/sources/momonts01.png" alt="" />
           </div>
-          <div class="info">
-            <p>Больше ярких моментов в нашей группе в Вконтакте</p>
-            <img src="/sources/vk_blue.png" alt="" />
+          <div class="moments-info">
+            <p class="my-p">Больше ярких моментов в нашей группе в Вконтакте</p>
+            <a href="https://vk.com/club101561924">
+              <img src="/sources/vk_blue.png" alt="" />
+            </a>
           </div>
         </div>
       </section>
@@ -128,106 +138,213 @@
           <h2>Что говорят ученики</h2>
           <div class="recieves">
             <div class="recieve">
-              <div class="info">
-                <p>Новикова Светлана </p>
-                <p>Занятия по вокалу очень классные! Никогда не думала, что моей дочке сразу понравится заниматься в группе, ведь она очень долго привыкает к обстановке . Мне очень нравится, что вы разбираете вокал на примере песен, так намного проще понять маленькому ребенку как, где и что работает. Я очень довольна вашими уроками! Спасибо большое вам за ваш опыт, талант и любовь к детям!</p>
+              <div class="recieve-info">
+                <p class="my-p">Новикова Светлана</p>
+                <p class="my-p">
+                  Занятия по вокалу очень классные! Никогда не думала, что моей
+                  дочке сразу понравится заниматься в группе, ведь она очень
+                  долго привыкает к обстановке . Мне очень нравится, что вы
+                  разбираете вокал на примере песен, так намного проще понять
+                  маленькому ребенку как, где и что работает. Я очень довольна
+                  вашими уроками! Спасибо большое вам за ваш опыт, талант и
+                  любовь к детям!
+                </p>
               </div>
               <div class="img-container">
-                <img src="/sources/image.png" alt="">
+                <img src="/sources/image.png" alt="" />
               </div>
-              <h4>13.02.2025</h4>
+              <p class="undertext">13.02.2025</p>
             </div>
             <div class="recieve">
-              <div class="info">
-                <p>Оганнисян Сона</p>
-                <p>Моей старшей дочери 9 лет и она занимается в ансамбле эстрадного пения ,, Веснушки « уже три года ! В этом году стала заниматься и младшая ! Девочкам занятия вокалом , хореографией и актерским мастерством ! Очень любят Ольгу Альбертовну! Она относится к ним с теплотой и поддерживает во всех начинаниях</p>
+              <div class="recieve-info">
+                <p class="my-p">Оганнисян Сона</p>
+                <p class="my-p">
+                  Моей старшей дочери 9 лет и она занимается в ансамбле
+                  эстрадного пения ,, Веснушки « уже три года ! В этом году
+                  стала заниматься и младшая ! Девочкам занятия вокалом ,
+                  хореографией и актерским мастерством ! Очень любят Ольгу
+                  Альбертовну! Она относится к ним с теплотой и поддерживает во
+                  всех начинаниях
+                </p>
               </div>
               <div class="img-container">
-                <img src="/sources/image-1.png" alt="">
+                <img src="/sources/image-1.png" alt="" />
               </div>
-              <h4>13.02.2025</h4>
+              <p class="undertext">13.02.2025</p>
             </div>
             <div class="recieve">
-              <div class="info">
-                <p>Косарева Екатерина</p>
-                <p>Я очень люблю наш коллектив, наши занятия и бесконечно благодарна нашему преподавателю за ее труд!  После каждого занятия есть ощущение, что я совершенствуюсь и пою немного лучше! Я очень много нового для себя узнаю. Никогда не думала, что у моего голоса столько возможностей и я смогу исполнить столько разных песен! Советы и наставления стали для меня ценным источником вдохновения. Ольга Альбертовна всегда верит в нас, даже когда мы сомневаемся в себе, и это помогает нам раскрыться.</p>
+              <div class="recieve-info">
+                <p class="my-p">Косарева Екатерина</p>
+                <p class="my-p">
+                  Я очень люблю наш коллектив, наши занятия и бесконечно
+                  благодарна нашему преподавателю за ее труд! После каждого
+                  занятия есть ощущение, что я совершенствуюсь и пою немного
+                  лучше! Я очень много нового для себя узнаю. Никогда не думала,
+                  что у моего голоса столько возможностей и я смогу исполнить
+                  столько разных песен! Советы и наставления стали для меня
+                  ценным источником вдохновения. Ольга Альбертовна всегда верит
+                  в нас, даже когда мы сомневаемся в себе, и это помогает нам
+                  раскрыться.
+                </p>
               </div>
               <div class="img-container">
-                <img src="/sources/image-2.png" alt="">
+                <img src="/sources/image-2.png" alt="" />
               </div>
-              <h4>13.02.2025</h4>
+              <p class="undertext">13.02.2025</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="awards-section">
+      <section class="awards-section" id="awards">
         <div class="container">
           <h2>Наши награды</h2>
           <div class="awards">
-            <img src="/sources/awards01.png" alt="">
-            <img src="/sources/awards02.png" alt="">
-            <img src="/sources/awards03.png" alt="">
-            <img src="/sources/awards04.png" alt="">
-            <img src="/sources/awards05.png" alt="">
-            <img src="/sources/awards06.png" alt="">
-            <img src="/sources/awards07.png" alt="">
-            <img src="/sources/awards08.png" alt="">
-            <img src="/sources/awards09.png" alt="">
-            <img src="/sources/awards10.png" alt="">
+            <img src="/sources/awards01.png" alt="" />
+            <img src="/sources/awards02.png" alt="" />
+            <img src="/sources/awards03.png" alt="" />
+            <img src="/sources/awards04.png" alt="" />
+            <img src="/sources/awards05.png" alt="" />
+            <img src="/sources/awards06.png" alt="" />
+            <img src="/sources/awards07.png" alt="" />
+            <img src="/sources/awards08.png" alt="" />
+            <img src="/sources/awards09.png" alt="" />
+            <img src="/sources/awards10.png" alt="" />
           </div>
         </div>
       </section>
       <section class="second-cta">
         <div class="container">
           <div class="second-cta-container">
-            <div class="info">
-              <h3>
-                Запишитесь уже сегодня на бесплатный пробный урок
-              </h3>
-              <button>Записаться</button>
+            <div class="second-cta-info">
+              <h3>Запишитесь уже сегодня на бесплатный пробный урок</h3>
+              <a
+                class="my-button"
+                href="https://dk.mosreg.ru/dk/klubnadezhda/workshops/04a17b2d-f5ce-40ad-98b3-bb6237af9cd7"
+                >Записаться</a
+              >
             </div>
           </div>
         </div>
       </section>
-      <section class="faqs">
+      <section class="faq-section" id="faq">
         <div class="container">
           <h2>Частые вопросы</h2>
-          <div class="faq-active">
-            <p>Мы принимаем учеников от 6 лет для детских групп и любого возраста для взрослых. Для детей занятия проходят в игровой форме, а для взрослых - в более профессиональном формате с учетом их уровня подготовки.</p>
-            <h3>С какого возраста принимаются ученики в студию эстрадного пения?</h3>
+          <div class="faq">
+            <div class="question">
+              <h3>В какие дни занятия?</h3>
+              <p class="my-p">
+                Занятия в нашем ансамбле проходят 3 раза в неделю : <br />
+                Для младшей группы понедельник с 17 оо до 18 оо(вокал +
+                хореография ) Четверг с 18 00 до 19 оо( вокал и актерское
+                мастерство ) <br />
+                Занятия средней и старшей группы проходят в четверг с 16оо до 17
+                оо(средние) С17 оо до 18 оо (старшие) В субботу, 12 оо до 13 оо(
+                средние ) с 13 оо до 14 оо (старшие)
+              </p>
+            </div>
+            <div class="question">
+              <h3>Как попасть на первый урок:</h3>
+              <p class="my-p">
+                На пробное занятие можно прийти сразу ( иметь сменную обувь)
+                Потом нужно будет записаться на портале Мое в наш коллектив
+              </p>
+            </div>
+            <div class="question">
+              <h3>Со скольки лет можно заниматься в ансамбле "Веснушки"?</h3>
+              <p class="my-p">
+                В нашем коллективе есть три возрастные группы: 
+                Подснежники (с 4 до 9 лет) группа на платной основе <br />
+                Капель (с 10 до 14 лет) <br />
+                Веснушки (с 15 и старше)
+              </p>
+            </div>
+            <div class="question">
+              <h3>Где выступает коллектив?</h3>
+              <p class="my-p">
+                Наш ансамбль выступает на различных площадках нашего города ,
+                участвует в различных фестивалях и конкурсах !
+              </p>
+            </div>
+            <div class="question">
+              <h3>
+                С какого возраста принимаются ученики в студию эстрадного пения?
+              </h3>
+              <p class="my-p">
+                Мы принимаем учеников от 6 лет для детских групп и любого
+                возраста для взрослых. Для детей занятия проходят в игровой
+                форме, а для взрослых - в более профессиональном формате с
+                учетом их уровня подготовки.
+              </p>
+            </div>
           </div>
-          <div class="faq-first">
-            <h3 class="faq">Нужно ли иметь музыкальное образование для начала занятий?</h3>
-            <h3 class="faq">Какие направления эстрадного вокала преподаются в студии?</h3>
-          </div>
-          <div class="faq-second">
-            <h3 class="faq">Сколько занятий в неделю и какова их продолжительность?</h3>
-            <h3 class="faq">Как проходит первый урок и сколько стоит абонемент на месяц?</h3>
-          </div>
-          <div class="faq-second"></div>
         </div>
       </section>
     </main>
     <footer>
       <div class="container">
         <div class="footer-container">
-          <div class="info">
-            <img src="/sources/logo.png" alt="" class="logo">
-            <nav>
-              <a class="nav-link" href="#">О нас</a>
-              <a class="nav-link" href="#">Награды</a>
-              <a class="nav-link" href="#">Галерея</a>
-              <a class="nav-link" href="#">Частые вопросы</a>
+          <div class="footer-info">
+            <a href="#first-screen">
+              <img src="/sources/logo.png" alt="" class="logo" />
+            </a>
+            <nav class="footer-nav">
+              <a class="nav-link" href="#about">О нас</a>
+              <a class="nav-link" href="#moments">Галерея</a>
+              <a class="nav-link" href="#awards">Награды</a>
+              <a class="nav-link" href="#faq">Частые вопросы</a>
             </nav>
-            <img src="sources/vk_dark.png" alt="" class="vk">
-            <h4>© Все права защищены 2025</h4>
+            <a href="https://vk.com/club101561924">
+              <img src="sources/vk_dark.png" alt="" class="vk" />
+            </a>
+            <p class="undertext">© Все права защищены 2025</p>
           </div>
           <div class="adres-container">
             <div class="adres">
-              <h4>Муниципальное автономное учреждение культуры городского округа Котельники Московской области «Культурный комплекс «Котельники»</h4>
-              <p>микрорайон Ковровый, 12, Котельники, Московская область</p>
+              <p class="undertext">
+                Муниципальное автономное учреждение культуры городского округа
+                Котельники Московской области «Культурный комплекс «Котельники»
+              </p>
+              <p class="my-p">
+                микрорайон Ковровый, 12, Котельники, Московская область
+              </p>
             </div>
-              <img src="/sources/map.png" alt="">
+            <div style="position: relative; overflow: hidden" class="map">
+              <a
+                href="https://yandex.ru/maps/org/klub_nadezhda/1099299828/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 0px;
+                "
+                >Клуб Надежда</a
+              ><a
+                href="https://yandex.ru/maps/21651/kotelniki/category/house_of_culture/184105876/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 14px;
+                "
+                >Дом культуры в Котельниках</a
+              ><a
+                href="https://yandex.ru/maps/21651/kotelniki/category/leisure_club/184106362/?utm_medium=mapframe&utm_source=maps"
+                style="
+                  color: #eee;
+                  font-size: 12px;
+                  position: absolute;
+                  top: 28px;
+                "
+                >Клуб досуга в Котельниках</a
+              ><iframe
+                src="https://yandex.ru/map-widget/v1/?ll=37.867966%2C55.658199&mode=poi&poi%5Bpoint%5D=37.866601%2C55.658020&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1099299828&z=17.2"
+                width="450"
+                height="450"
+                frameborder="1"
+                allowfullscreen="true"
+                style="position: relative; border: none; border-radius: 30px"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
