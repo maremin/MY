@@ -1,31 +1,36 @@
 @font-face {
-  font-family: 'Sofia Sans';
-  font-style: normal;
+  font-family: "Sofia Sans";
+  src: url("/sources/Sofia_Sans/static/AnyConv.com__SofiaSans-Regular.woff2")
+      format("woff2"),
+    url("/sources/Sofia_Sans/static/SofiaSans-Regular.ttf") format("ttf");
   font-weight: 400;
-  font-display: swap;
-  src: url(/sources/Sofia_Sans/static/SofiaSans-Regular.ttf) format('ttf');
+  font-style: normal;
 }
 @font-face {
-  font-family: 'Sofia Sans';
-  font-style: normal;
+  font-family: "Sofia Sans";
+  src: url("/sources/Sofia_Sans/static/AnyConv.com__SofiaSans-Medium.woff2")
+      format("woff2"),
+    url("/sources/Sofia_Sans/static/SofiaSans-Medium.ttf") format("ttf");
   font-weight: 500;
-  font-display: swap;
-  src: url(/sources/Sofia_Sans/static/SofiaSans-Medium.ttf) format('ttf');
+  font-style: normal;
 }
 @font-face {
-  font-family: 'Sofia Sans';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: url(/sources/Sofia_Sans/static/SofiaSans-Medium.ttf) format('ttf');
-}
-@font-face {
-  font-family: 'Sofia Sans';
-  font-style: normal;
+  font-family: "Sofia Sans";
+  src: url("/sources/Sofia_Sans/static/AnyConv.com__SofiaSans-SemiBold.woff2")
+      format("woff2"),
+    url("/sources/Sofia_Sans/static/SofiaSans-SemiBold.ttf") format("ttf");
   font-weight: 600;
-  font-display: swap;
-  src: url(/sources/Sofia_Sans/static/SofiaSans-SemiBold.ttf) format('ttf');
+  font-style: normal;
 }
+@font-face {
+  font-family: "Sofia Sans";
+  src: url("/sources/Sofia_Sans/static/AnyConv.com__SofiaSans-Bold.woff2")
+      format("woff2"),
+    url("/sources/Sofia_Sans/static/SofiaSans-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
 
 :root {
   --color-dark_brown: #370617;
