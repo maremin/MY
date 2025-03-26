@@ -1,3 +1,32 @@
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/sources/Sofia_Sans/static/SofiaSans-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/sources/Sofia_Sans/static/SofiaSans-Medium.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/sources/Sofia_Sans/static/SofiaSans-Medium.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Sofia Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/sources/Sofia_Sans/static/SofiaSans-SemiBold.ttf) format('ttf');
+}
+
 :root {
   --color-dark_brown: #370617;
   --color-orange: #f48c06;
