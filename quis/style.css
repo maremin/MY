@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope", sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtext{
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+}
+
+h1{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+}
+
+
+.my-p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+}
+
+.my-button{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    padding: 13px 68px;
+    background-color: #FF0000;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: inline-block;
+}
+
+.my-button[disabled] {
+    background-color: #BEBEBE;
+    pointer-events: none;
+}
+
+label{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+input{
+    width: 42px;
+    height: 42px;
+}
+
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+
+
+
